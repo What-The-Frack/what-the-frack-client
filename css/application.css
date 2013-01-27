@@ -1,0 +1,269 @@
+body {
+  max-height: 675px;
+  font-size: 18px;
+  background-color: #79655A;
+}
+
+p {
+  line-height: 1.3em;
+}
+
+.small {
+  font-size: 14px;
+}
+
+.small i {
+  font-size: 11px;
+}
+
+.progress-container {
+  margin: 11px 0 0 20px;
+}
+
+.progress {
+  margin-bottom: 0;
+  background-image: none;
+  background-color: #333;
+}
+
+.progress .bar {
+  background-image: none;
+  background-color: #CCC;
+}
+
+.navbar, .container-fluid {
+  margin-bottom: 0;
+  clear: both;
+}
+
+.logo {
+  width: 650px;
+  height: 394px;
+  position: relative;
+  left: -10px;
+}
+
+.outer-container {
+  padding: 0;
+}
+
+#outer-container-right {
+  background: url('../img/right.png') repeat-x;
+  min-height: 675px;
+}
+
+#outer-container-left {
+  background: url('../img/left.png') repeat-x;
+  min-height: 675px;
+}
+
+.container {
+  background: url('../img/FRACK_bg_1.png') no-repeat;
+  min-width: 900px;
+  min-height: 675px;
+  top: -675px;
+  position: relative;
+}
+
+.navbar-inner {
+  color: #CCC;
+  height: 45px;
+}
+
+.carousel {
+  margin-top: 20px;
+}
+
+.news h1 {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.btn-group-wrap {
+  text-align: center;
+  padding: 20px;
+}
+
+.begin-game {
+  position: relative;
+  top: -95px;
+  left: 55px;
+}
+
+#modal-choose-role li img {
+  margin: 10px 0;
+  height: 100px;
+  width: 100px;
+}
+
+#modal-choose-role li.disabled img {
+  opacity: 0.25;
+}
+
+.modal ul li {
+  text-align: center;
+}
+
+.modal.news img {
+  margin-right: 20px;
+}
+
+ul.resources li img {
+  height: 24px;
+  width: 24px;
+}
+
+ul.resources li {
+  margin-top: 5px;
+}
+
+ul.resources img, ul.people img {
+  margin-right: 5px;
+}
+
+ul.people img {
+  height: 60px;
+  width: 60px;
+  margin-bottom: 8px;
+  cursor: pointer;
+}
+
+ul.resources {
+  margin: 4px 0 10px 0;
+}
+
+.sidebar {
+  margin: 20px 0 0 10px;
+}
+
+.screen .main {
+  margin-left: 130px;
+}
+
+.main p {
+  font-size: 15px;
+}
+
+.main h1, .main h4 {
+  font-size: 20px;
+}
+
+.main h1 {
+  margin: 0;
+}
+
+.actions li {
+  margin: 0 10px 15px;
+}
+
+.positive {
+  color: green;
+}
+
+.negative {
+  color: red;
+}
+
+.effects {
+  color: #333;
+  font-weight: bold;
+  text-align: center;
+}
+
+.effects li {
+  margin: 0 5px;
+}
+
+#modal-intro p {
+  font-size: 13px
+}
+
+.text p {
+  margin: 0;
+}
+
+.text .background-links {
+  margin-top: 10px;
+}
+
+.text .background-links span {
+  /*font-weight: bold;*/
+}
+
+.text h4 {
+  margin-bottom: 0;
+}
+
+.opinions {
+  font-size: 14px;
+  text-align: center;
+  background-color: rgba(255,255,255,0.25);
+  padding: 40px 20px;
+  border-radius: 20px;
+}
+
+.people {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.people li {
+  margin-top: 50px;
+}
+
+.people li:first-child {
+  margin-top: 0;
+}
+
+.background-links {
+  margin: 20px 0 0 20px;
+}
+
+.background-links, .background-links ul li {
+  text-align: left;
+  font-size: 14px;
+}
+
+.background-links ul {
+  margin-top: 5px;
+  margin-bottom: 0;
+}
+
+.consequence .modal-header {
+  color: #FFF;
+}
+
+.consequence .modal-header {
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+}
+
+.consequence .modal-body {
+  color: #333;
+}
+
+.consequence.negative .modal-header {
+  background-color: #DA4F49;
+}
+
+.consequence.neutral .modal-header {
+  background-color: #006DCC;
+}
+
+.consequence.positive .modal-header {
+  background-color: #5bb75b;
+}
+
+.outcome {
+  margin: 20px 0;
+}
+
+.outcome .final {
+  width: 200px;
+  height: 200px;
+  margin-right: 20px;
+}
+
+.outcome .message {
+  padding-top: 20px;
+}

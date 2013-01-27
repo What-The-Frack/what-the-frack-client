@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>What The Frack?</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link href="css/application.css" rel="stylesheet" media="screen">
+  </head>
+  <body>
+    <div class="navbar navbar-inverse">
+      <div class="navbar-inner">
+        <h4 class="date hide pull-left"></h4>
+
+        <div class="progress-container hide span2">
+          <div class="progress active">
+            <div class="bar" style="width: 0%;"></div>
+          </div>
+        </div>
+
+        <div class="resources-container hide pull-right">
+          <h4 class="pull-left">Resources</h4>
+          <ul class="unstyled resources pull-left">
+          </ul>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="container-fluid outer-container">
+      <div class="row-fluid">
+        <div id="outer-container-left" class="span6">&nbsp;</div>
+        <div id="outer-container-right" class="span6">&nbsp;</div>
+      </div>
+    </div>
+
+    <div class="container">
+
+      <div id="carousel" class="carousel slide">
+
+        <!-- Carousel items -->
+        <div class="carousel-inner">
+
+          <div class="active item">
+
+            <!-- Intro -->
+            <div class="row intro">
+              <div class="span9 news offset3">
+                <img src="./img/frack_logo.png" class="logo"/>
+                <div class="btn-group-wrap">
+                  <div class="btn-group">
+                    <button data-target="#modal-intro" class="btn btn-primary btn-large begin-game" data-toggle="modal"><i class="icon-circle-arrow-right icon-white"></i> Begin Game</button>
+                  </div>
+                </div>
+
+                <div id="modal-intro" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="Choose Your Role" aria-hidden="true">
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">x</button>
+                    <h3>What is fracking?</h3>
+                  </div>
+                  <div class="modal-body">
+                    <iframe id="video" width="530" height="300" src="http://www.youtube.com/embed/timfvNgr_Q4" frameborder="0" allowfullscreen></iframe>
+                    <!-- <p>
+                      What if there were a way to extract so much oil and natural gas from far underground that it would make America energy independent? What if this technology was so effective that it would bring back manufacturing jobs and revive the economy to a degree we haven't seen in decades?
+                    </p>
+                    <p>
+                      That sounds great, doesn't it?
+                    </p>
+                    <p>
+                      And what if there were serious drawbacks to this technology? What if it opened up the possibility of contaminating our water supplies and putting dangerous chemicals in the air? Would the risk be worth taking?
+                    </p>
+                    <p>
+                      The technology we're talking about is hydraulic fracturing or 'fracking'. Fracking involves drilling a hole deep under the earth and injecting water and other materials under high pressure to break up layers of rock to release petrochemicals. With fracking, oil fields that were too expensive to   exploit have suddenly become accessible. Harvard history professor Niall Ferguson says this: "Fracking is an absolutely huge phenomenon with massive implications for the U.S. economy, and I think most people are still a little bit slow to appreciate just how big this is, Conceivably it means a new golden age."
+                    </p>
+                    <p>
+                      Over the next few years, politicians, scientists, activists and ordinary citizens will debate the pros and cons of fracking. The experience you are about to have will prepare you to understand and participate in that debate.
+                    </p> -->
+                  </div>
+                  <div class="modal-footer">
+                    <a href="#" class="btn btn-primary btn-large continue" data-dismiss="modal" data-target="#modal-choose-role" data-toggle="modal">Continue</a>
+                  </div>
+                </div>
+
+                <div id="modal-choose-role" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="Choose Your Role" aria-hidden="true">
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">x</button>
+                    <h3>Who will you play?</h3>
+                  </div>
+                  <div class="modal-body">
+                    <ul class="nav nav-pills unstyled inline">
+                      <li class="span2">
+                        <a href="#" data-dismiss="modal" data-role="government">Government<br/><img class="img-rounded" src="./img/Government.png"/></a><br/>
+                        <span class="small">Elected and appointed officials working for state government.</span>
+                      </li>
+                      <li class="span2 disabled">
+                        <a href="#">Gas&nbsp;Company<br/><img class="img-rounded" src="./img/Energy.png"/>
+                        </a>
+                        <span class="small"><i>Coming soon!</i><br/>Executives working for companies extracting natural gas through fracking.</span>
+                      </li>
+                      <li class="span2 disabled">
+                        <a href="#">Environmentalist<br/><img class="img-rounded" src="./img/Environmentalist.png"/>
+                        </a>
+                        <span class="small"><i>Coming soon!</i><br/>Not-profit citizen groups promoting environmental protection.</span>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+
+
+              </div>
+            </div>
+
+          </div>
+
+          <div class="item">
+
+            <!-- Screen -->
+            <div class="row screen">
+
+              <div class="span3 sidebar">
+                <div class="opinions span">
+
+                  <ul class="unstyled people">
+                  </ul>
+
+                </div>
+              </div>
+
+              <div class="span7 main">
+
+                <div class="text">
+                  <h1>Title</h1>
+                  <p class="message">
+                    Veggies sunt bona vobis, proinde vos postulo esse magis daikon silver beet bush tomato pea sprouts fava bean?
+                  </p>
+                  <p class="background-links"></p>
+                  <h4>Choose one:</h4>
+                </div>
+
+                <div class="actions btn-group-wrap">
+                  <ul class="unstyled inline">
+                    <li>
+                      <button data-target="#modal-effect" class="btn btn-info" data-toggle="modal">Action X</button>
+                    </li>
+                    <li>
+                      <button data-target="#modal-effect" class="btn btn-info" data-toggle="modal">Action Y</button>
+                    </li>
+                    <li>
+                      <button data-target="#modal-effect" class="btn btn-info" data-toggle="modal">Action Z</button>
+                    </li>
+                  </ul>
+                </div>
+                <div id="modal-effect" class="modal hide fade news consequence" tabindex="-1" role="dialog" data-keyboard="false" data-backdrop="static">
+                  <div class="modal-header">
+                    <h3>Consequences</h3>
+                  </div>
+                  <div class="modal-body">
+                    <img src="http://placekitten.com/140/140" class="img-polaroid pull-left"/>
+                    <p>
+                      Veggies sunt bona vobis, proinde vos postulo esse magis daikon silver beet bush tomato pea sprouts fava bean.
+                    </p>
+                  </div>
+                  <div class="modal-footer">
+                    <a href="#" class="btn btn-primary btn-large continue" data-dismiss="modal">Continue</a>
+                  </div>
+                </div>
+              </div>
+
+
+            </div>
+
+          </div>
+
+          <div class="item">
+
+            <!-- End Screen -->
+            <div class="row end-screen">
+              <div class="span8 offset4">
+                <div class="text">
+                  <h1>Final Summary</h1>
+
+                  <div class="row">
+                    <div id="final-environment" class="outcome hide">
+                      <img src="./img/final_nature.png" class="final pull-left"/>
+                      <p class="message">
+                        Based on the choices you made, at the end of a year and a half, the natural environment of your state is doing well. You seemed to favor a green strategy to a greater extent than you favored the concerns of the energy companies.
+                      </p>
+                    </div>
+
+                    <div id="final-industry" class="outcome hide">
+                      <img src="./img/final_industry.png" class="final pull-left"/>
+                      <p class="message">
+                        Based on the choices you made, at the end of a year and a half, the economy of your state is doing well. You seemed to favor a pro-business strategy to a greater extent than you favored the concerns of environmentalists.
+                      </p>
+                    </div>
+
+                  </div>
+
+                  <h2>
+                    Quality of Life (QoL) Score:
+                    <span class="score"/>
+                  </h2>
+                </div>
+
+                <div class="finished-actions btn-group-wrap">
+                  <ul class="unstyled inline">
+                    <li>
+                      <button class="btn btn-primary btn-large" data-target="#modal-leaderboard" data-toggle="modal">View Leaderboard</button>
+                    </li>
+                    <li>
+                      <button class="btn btn-primary btn-large play-again">Play Again</button>
+                    </li>
+                    <li>
+                      <a href="http://lmgtfy.com/?q=learn+moar+about+fracking" target="_blank" class="btn btn-primary btn-large">Take Action</a>
+                    </li>
+                  </ul>
+
+                  <br/><br/><br/>
+
+                  Game created by <a href="http://about.me/berniedodge" target="_blank">Bernie Dodge</a>, <a href="http://www.kosiecki.com/" target="_blank">Kristin Osiecki</a>, and <a href="http://linkedin.com/in/detect" target="_blank">Hao Chen</a><br/>
+                  at <a href="http://globalgamejam.org/" target="_blank">Global Game Jam 2013 MIT</a>. <a href="https://github.com/Detect/what-the-frack" target="_blank">Fork me</a>.
+
+                  <div id="modal-leaderboard" class="modal hide fade news" tabindex="-1" role="dialog">
+                    <div class="modal-header">
+                      <button type="button" class="close" data-dismiss="modal" aria-hidden="true">x</button>
+                      <h3>Leaderboard</h3>
+                    </div>
+                    <div class="modal-body">
+                      <img src="http://placekitten.com/140/140" class="img-polaroid pull-left"/>
+                      <div class="well span3">
+                        <p>
+                          You're #1!
+                        </p>
+                      </div>
+                    </div>
+                    <div class="modal-footer">
+                      <a href="#" class="btn btn-primary btn-large continue" data-dismiss="modal">Close</a>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/lowLag.js"></script>
+    <script src="js/soundmanager2-nodebug-jsmin.js"></script>
+    <script src="js/application.js"></script>
+  </body>
+</html>
