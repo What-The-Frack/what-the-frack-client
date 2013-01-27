@@ -108,9 +108,15 @@ p {
   margin-right: 20px;
 }
 
-ul.resources li img {
+ul.resources li img, img.lil {
   height: 24px;
   width: 24px;
+}
+
+.lil {
+  margin-right: 8px;
+  position: relative;
+  top: -3px;
 }
 
 ul.resources li {
