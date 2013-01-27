@@ -397,7 +397,9 @@ var Game = {
 
     try {
       lowLag.init({'urlPrefix':'audio/'});
-      lowLag.load(['Positive.mp3', 'Neutral.mp3', 'Negative.mp3']);
+      lowLag.load('Positive.mp3');
+      lowLag.load('Neutral.mp3');
+      lowLag.load('Negative.mp3');
     }catch(e){}
   },
 
@@ -593,7 +595,8 @@ var Game = {
     Game.setResources();
 
     try {
-      lowLag.play( choice.consequenceType + '.mp3'); //Positive.mp3, Neutral.mp3, Negative.mp3
+      var sound = choice.consequenceType + '.mp3';
+      lowLag.play( sound ); //Positive.mp3, Neutral.mp3, Negative.mp3
     }catch(e){}
   },
 
